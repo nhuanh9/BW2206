@@ -108,6 +108,12 @@ div {
     background: blue;
 }
 
+@media only screen and (max-width: 1200px) {
+    .main_content_stories_item{
+        width: 23%;
+    }
+}
+
 @media only screen and (max-width: 1000px) {
     .main_left {
         display: none;
@@ -119,6 +125,18 @@ div {
 
     .main_content {
         width: 65%;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .main_right {
+        display: none;
+    }
+
+    .main_content {
+        width: 100%;
     }
 
 }
