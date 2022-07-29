@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+div {
+    box-sizing: border-box;
+}
+.nav{
+    width: 100%;
+    height: 50px;
+    border: 1px solid;
+}
+
+.main {
+    width: 100%;
+    height: 90vh;
+    background: rgb(230, 228, 226);
+}
+
+.main_content{
+    width: 50%;
+    height: 100%;
+    float: left;
+    overflow: auto;
+}
+
+.main_content_stories {
+    margin-top: 10px;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.main_content_stories_item {
+    width: 19%;
+    height: 200px;
+    margin: 3.7px;
+    background: white;
+    float: left;
+    border-radius: 10px;
+    position: relative;
+}
+
+.main_content_stories_item_avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 3px solid blue;
+    top: 15px;
+    left: 15px;
+    position: absolute;
+}
+
+.main_content_new, .main_content_room, .main_content_post {
+    margin-top: 10px;
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    background: white;
+}
+
+.main_content_room {
+    height: 50px;
+}
+
+.main_content_post {
+    height: 400px;
+    background: tomato;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.test {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: absolute;
+}
+
+
+.main_left, .main_right {
+    width: 25%;
+    height: 100%;
+    float: left;
+    padding: 10px;
+    overflow: auto;
+}
+
+.main_right_top,  .main_right_mid{
+    width: 100%;
+    height: 300px;
+    background: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.main_right_friends{
+    width: 100%;
+
+}
+
+
+.main_right_friends_item{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background: blue;
+}
+
+@media only screen and (max-width: 1000px) {
+    .main_left {
+        display: none;
+    }
+
+    .main_right {
+        width: 35%;
+    }
+
+    .main_content {
+        width: 65%;
+    }
+
+}
