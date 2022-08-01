@@ -1,0 +1,10 @@
+
+.A, .B{
+    width: 30px;
+    height: 30px;
+    border: 1px solid;
+}
+.A {
+    margin-left: 100px;
+    border-right: 5px dashed;
+}

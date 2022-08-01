@@ -13,7 +13,36 @@
 
 [class*="col-"] {
     float: left;
-    padding: 15px;
-    border: 1px solid red;
+    border: 1px solid black;
     box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.head, .head_logo, .head_banner {
+    height: 100px;
+}
+
+.nav {
+    margin-top: 10px;
+    height: 50px;
+}
+
+.main, .main_sidebar, .main_content {
+    border: 0;
+}
+
+.main_sidebar_top, .main_sidebar_bot {
+    height: 300px;
+}
+
+.main_content_news, .main_content_slides {
+    height: 200px;
+}
+
+.main_content_item {
+    height: 150px;
+}
+
+.main_poster {
+    height: 700px;
 }
