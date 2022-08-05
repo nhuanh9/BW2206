@@ -1,0 +1,51 @@
+.border {
+    border: 1px solid;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.mr-10 {
+    margin-right: 10px;
+}
+.ml-10 {
+    margin-left: 10px;
+}
+
+.head {
+    display: flex;
+}
+
+.head_logo {
+    width: calc(30% - 10px);
+    height: 150px;
+}
+
+.head_banner {
+    width: 70%;
+    height: 150px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.nav_menu, .nav_search {
+    height: 50px;
+}
+
+.nav_menu {
+    display: flex;
+}
+
+.nav_menu>div {
+    height: 30px;
+    line-height: 30px;
+    padding:0 10px;
+    margin-top: 10px;
+}
+
+.nav_menu>div:not(:last-child){
+    border-right: 1px solid #000;
+}

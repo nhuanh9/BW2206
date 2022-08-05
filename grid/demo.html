@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .cha {
+            display: grid; 
+            /* .cha: grid-container */
+            grid-template-columns: auto auto auto auto; 
+            grid-template-rows: 300px 300px;
+            /*  */
+        }
+        .con {
+            border: 1px solid;
+        }
+
+        .con1 {
+            grid-column: 1 3;
+            grid-row: 1 3;
+        }
+    </style>
+</head>
+<body>
+<div class="cha">
+    <div class="con con1"></div>
+    <div class="con"></div>
+    <div class="con"></div>
+    <div class="con"></div>
+    <div class="con"></div>
+</div>
+</body>
+</html>
