@@ -10,10 +10,10 @@
 .ml-10 {
     margin-left: 10px;
 }
-
-.head {
+.d-flex {
     display: flex;
 }
+
 
 .head_logo {
     width: calc(30% - 10px);
@@ -26,17 +26,12 @@
 }
 
 .nav{
-    display: flex;
     justify-content: space-between;
     padding: 0 10px;
 }
 
 .nav_menu, .nav_search {
     height: 50px;
-}
-
-.nav_menu {
-    display: flex;
 }
 
 .nav_menu>div {
