@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 .border {
     border: 1px solid;
 }
@@ -13,7 +16,6 @@
 .d-flex {
     display: flex;
 }
-
 
 .head_logo {
     width: calc(30% - 10px);
@@ -43,4 +45,41 @@
 
 .nav_menu>div:not(:last-child){
     border-right: 1px solid #000;
+}
+
+.main_sidebar {
+    width: 15%;
+}
+
+.main_sidebar>div {
+    height: 250px;
+    width: 100%;
+}
+
+.main_content {
+    width: 65%;
+}
+
+.main_content_top>div {
+    width: calc(50% - 20px);
+    margin: 0 10px;
+    height: 200px;
+}
+
+.main_content_list {
+    flex-wrap: wrap;
+}
+.main_content_list>div {
+    width: calc(33.3% - 20px);
+    margin: 10px 10px;
+    height: 200px;
+}
+
+.main_poster {
+    width: 20%;
+    height: 600px;
+}
+
+.footer_text{
+    line-height: 50px;
 }
